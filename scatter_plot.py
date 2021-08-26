@@ -51,7 +51,7 @@ def main():
 
     # Plotter
     ax = plt.axes(projection='3d')
-    ani = FuncAnimation(plt.gcf(), animate, interval=500)
+    ani = FuncAnimation(plt.gcf(), animate, interval=100)
     plt.tight_layout()
     plt.show()
 
